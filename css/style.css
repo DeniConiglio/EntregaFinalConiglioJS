@@ -1,0 +1,53 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "contenedorHeader"
+   "contenedorMain"
+   "contenedorFoot"; 
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: xxx-large;
+  }
+  
+  .contenedor {
+    background-color: black;
+    border-radius: 50px;
+    opacity: 0.8;
+  }
+  
+  .contenedorHeader{
+    grid-area: "contenedorHeader";
+    padding-top: 20px;
+  }
+  
+  .contenedorMain{
+    grid-area: "contenedorMain";
+  }
+  
+  .contenedorFoot{
+    grid-area: "contenedorFoot";
+  }
+  
+  ul{
+    list-style-type:none;
+    padding-right: 40px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  input{
+    border-radius: 50px;
+    border-color: white;
+  }
